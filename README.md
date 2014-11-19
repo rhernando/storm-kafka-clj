@@ -5,6 +5,11 @@ This is a working implementation skeleton for a basic storm application with a K
 The producer will connect to the Twitter Streaming API and put the tweets into the system.
 The Storm Spout will take those messages.
 
+At first I follow the [Hortonworks] Tutorial about the system, plus some other references, such as [echeran] *clj-kafka-storm* and [Michael G. Noll]'s article.
+I used the Lein [template] to create the topology. 
+
+The main goal was to implement this using clojure and the lastest libraries, so... that's it.
+
 ## Project Setup
 
 First you will need Kafka **[(kafka_2.9.2-0.8)]** and storm **[(apache-storm-0.9.2-incubating)]** from the apache site.
@@ -73,4 +78,7 @@ topologyName=my-topology
 
 [(kafka_2.9.2-0.8)]:http://kafka.apache.org/downloads.html
 [(apache-storm-0.9.2-incubating)]:https://storm.apache.org/downloads.html
-
+[Hortonworks]:http://hortonworks.com/hadoop-tutorial/simulating-transporting-realtime-events-stream-apache-kafka/
+[echeran]:https://github.com/echeran/clj-kafka-storm
+[template]:https://github.com/travis/lein-storm-project-template
+[Michael G. Noll]:http://www.michael-noll.com/blog/2014/05/27/kafka-storm-integration-example-tutorial/
