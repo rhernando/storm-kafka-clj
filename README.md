@@ -71,7 +71,6 @@ topologyName=my-topology
 
 
 
-**Free Software, Hell Yeah!**
 [(kafka_2.9.2-0.8)]:http://kafka.apache.org/downloads.html
 [(apache-storm-0.9.2-incubating)]:https://storm.apache.org/downloads.html
 
